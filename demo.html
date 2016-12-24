@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <hr>
+    <!--
+        图片标签
+    -->
+    <marquee><img src="../img/1.jpg" width="200px" height="200px" alt="beautiful girl"/></marquee>
+
+    <!--
+         超链接标签
+            链接资源：
+                需要编写协议：http
+                显示图片：默认文件协议
+            定位资源:
+                definate the location of content
+
+     -->
+    <a  href="http://www.baidu.com">baidu</a>
+    <a href="../img/2.jpg">girl</a>
+
+<table border="1" width="50%" bgcolor="#00ffff" borderColor="blue">
+    <caption>demo table</caption>
+    <tr>
+        <th>demo11</th><th>demo12</th><th>demo13</th>
+    </tr>
+    <tr align="center">
+    <td colspan="2">demo11</td><td>demo13</td>
+    </tr>
+    <tr align="center">
+        <td rowspan="2">demo21</td><td>demo22</td><td>demo23</td>
+    </tr>
+    <tr align="center">
+        <td>demo32</td><td>demo33</td>
+    </tr>
+
+</table>
+    <form action="/webroot/index.html" action="post">
+        username&nbsp;&nbsp;&nbsp;<input type="text" name="inputTxt" ><br>
+        password&nbsp;&nbsp;&nbsp;<input type="password" name="inputPwd"><br>
+        <input type="radio" name="radioDemo" >demo01<br>
+        <input type="radio" name="radioDemo" >demo02<br>
+        <br><br>
+        <input type="checkbox" name="tool" value="ball" checked="checked">ball<br>
+        <input type="checkbox" name="tool" value="tb">tb<br>
+        <input type="checkbox" name="tool" value="ball2">ball1<br>
+        <input type="checkbox" name="tool" value="tb3">tb2<br>
+
+        <input type="file" name="upload">
+        <input type="hidden" value="hidden"><br>
+        <select>
+            <option value="basketball">basketball</option>
+            <option value="baseball" selected="selected">baseball</option>
+            <option value="football">football</option>
+        </select>
+        <textarea cols="10" rows="4" name="txtarea"></textarea>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>
